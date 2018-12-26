@@ -74,7 +74,7 @@ public class CalNavidad {
 		bfwriter.write( "Edad exacta = " + wanio + " años " + wmes + " meses "+ wdia + " dias" +"\n");
                 bfwriter.flush();
 			bfwriter.close();
-                        
+                        System.out.println("Feliz Navidad y Prospero Año Nuevo..");
 			System.out.println("Archivo modificado satisfactoriamente..");
  
 		} catch (IOException e) {
